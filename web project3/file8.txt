@@ -1,0 +1,108 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f5eb; /* Soft beige background */
+}
+
+header {
+  background-color: #4d4f52; /* Deep gray for header */
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', 'Times New Roman', serif;
+  /* Add backup fonts as needed */
+  color: #2a2d34; /* Dark blue-green for headings */
+}
+
+nav {
+  background-color: #596a7b; /* Muted blue-gray for navigation */
+  color: #fff;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section.featured-posts {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+section.featured-posts article {
+  flex: 1;
+  margin: 0 10px;
+}
+
+section.featured-posts img {
+  width: 100%;
+  height: auto;
+}
+
+section.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+section.main-content article {
+  flex: 1;
+  margin: 0 10px 20px 10px;
+}
+
+section.main-content img {
+  width: 100%;
+  height: auto;
+}
+
+aside.sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: #d9d5c5; /* Light gray for sidebar */
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #4d4f52; /* Deep gray for footer */
+  color: #fff;
+}
+
+/* Media Queries for Responsive Design */
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.featured-posts,
+  section.main-content {
+    flex-direction: column;
+  }
+
+  section.main-content article {
+    width: 100%;
+  }
+
+  aside.sidebar {
+    order: -1; /* Move the sidebar to the top in small screens */
+  }
+}

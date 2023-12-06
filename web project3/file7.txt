@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Blog Title</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Your Blog Title</h1>
+    <p>Your tagline goes here</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Categories</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section class="featured-posts">
+    <!-- Featured posts go here -->
+    <article>
+      <img src="featured-post-image.jpg" alt="Featured Post Image">
+      <h2>Featured Post Title</h2>
+      <p>Short description of the post.</p>
+      <a href="#">Read More</a>
+    </article>
+    <!-- Repeat this structure for other featured posts -->
+  </section>
+
+  <section class="main-content">
+    <!-- Blog posts go here -->
+    <article>
+      <img src="post-image.jpg" alt="Post Image">
+      <h2>Post Title</h2>
+      <p>Content of the blog post.</p>
+      <a href="#">Read More</a>
+    </article>
+    <!-- Repeat this structure for other blog posts -->
+  </section>
+
+  <aside class="sidebar">
+    <!-- Sidebar content goes here -->
+    <div class="widget">
+      <h3>Popular Posts</h3>
+      <!-- List popular posts here -->
+    </div>
+    <!-- Add more widgets as needed -->
+  </aside>
+
+  <footer>
+    <p>&copy; 2023 Your Blog Name. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
